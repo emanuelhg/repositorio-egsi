@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* Generales */
+body {
+  background-image: url("../media/fondo_site.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+.titulosSeccion {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #0067c7; }
+
+.comentarioSeccion {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #018080; }
+
+/* Nav del sitio */
+.navbar-dark .navbar-brand {
+  color: #0067c7; }
+
+.navbar-dark .navbar-brand:hover {
+  color: #0067c7;
+  transition-duration: 0.5s;
+  transform: scale(1.1); }
+
+a.navbar-brand {
+  font-size: 1.375rem; }
+
+#colorTi {
+  color: #018080; }
+
+div#collapsibleNavbar.collapse.navbar-collapse {
+  flex-direction: row-reverse; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #018080;
+  font-size: 1.25rem;
+  font-weight: bold; }
+
+.active {
+  color: #0067c7 !important; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0067c7;
+  transition-duration: 0.25s;
+  transform: scale(1.05); }
+
+/* Footer */
+div.row.text-center.bg-dark {
+  margin: 0px; }
+
+.footerDatos p {
+  font-size: 0.875rem;
+  margin: 1rem;
+  color: #018080; }
+
+.footerRedes {
+  margin-bottom: 1rem;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly; }
+
+.iconoSocial:hover {
+  filter: drop-shadow(1px 1px black); }
+
+/* Sección Index */
+.carousel-item {
+  height: 550px;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.carousel-caption {
+  transform: translateY(-50%);
+  top: 50%;
+  bottom: 0; }
+
+.carouselTitulo {
+  font-size: 4rem; }
+
+span.carousel-control-next-icon {
+  width: 30px;
+  height: 30px; }
+
+span.carousel-control-prev-icon {
+  width: 30px;
+  height: 30px; }
+
+/* Sección Nosotros */
+.card-deck {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  margin: 0px; }
+
+.card-body {
+  padding: 1rem; }
+
+.card-img-top {
+  transition: transform .2s, filter .2s ease-in-out;
+  filter: grayscale(100%); }
+
+.card-img-top:hover {
+  filter: grayscale(0);
+  transform: scale(1.025); }
+
+.cardNombre {
+  color: #0067c7; }
+
+.cardPuesto {
+  color: #018080; }
+
+.videoTI iframe {
+  padding-bottom: 3rem; }
+
+.misionVisionValores {
+  padding-bottom: 2rem; }
+
+.logoMVV {
+  color: #0067c7;
+  padding: 1rem; }
+
+.titulosNosotros {
+  color: #018080; }
+
+.textoMVV {
+  font-size: 1.5rem; }
+
+/* Sección Servicios*/
+.seccionServicios {
+  padding-top: 2rem; }
+
+.rowServicios {
+  padding-bottom: 3rem; }
+
+.picServicios {
+  width: 100%; }
+
+.tituloServicios {
+  color: #0067c7; }
+
+/* Sección Clientes*/
+.fotoCliente {
+  max-width: 200px; }
+
+.nombreCliente {
+  font-size: 1.5rem;
+  color: #0067c7; }
+
+.cargoCliente {
+  font-size: 1.25rem;
+  color: #018080; }
+
+.marcoCliente {
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+/* Sección Contacto */
+.contenidoNosotros {
+  padding-bottom: 2rem; }
+
+.logoContacto {
+  color: #0067c7;
+  margin-bottom: 1rem; }
+
+.datosContacto {
+  color: #018080;
+  font-weight: bold; }
+
+.mapaOficina {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.mapaOficina iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+.subContacto {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #0067c7; }
+
+form label {
+  color: #018080; }
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  /* Sección Nosotros */
+  .card-img-top {
+    filter: grayscale(0%); }
+  /* Sección Clientes*/
+  .nombreCliente {
+    text-align: center; }
+  .cargoCliente {
+    text-align: center; }
+  .resenaCliente {
+    text-align: center; } }
