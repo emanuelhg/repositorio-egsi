@@ -1,0 +1,53 @@
+$color-primario: #0067c7;
+$color-secu: #018080;
+
+/* Sección Nosotros */
+
+.card-deck {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	margin: 0px;
+}
+
+.card-body {
+	padding: 1rem;
+}
+
+.card-img-top {
+	transition: transform .2s, filter .2s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.card-img-top:hover {
+	filter: grayscale(0);
+  transform: scale(1.025);
+}
+
+.cardNombre {
+	color: $color-primario;
+}
+
+.cardPuesto {
+	color: $color-secu;
+}
+
+.videoTI iframe {
+  padding-bottom: 3rem;
+}
+
+.misionVisionValores {
+  padding-bottom: 2rem;
+}
+
+.logoMVV {
+	color: $color-primario;
+	padding: 1rem;
+}
+
+.titulosNosotros {
+	color: $color-secu;
+}
+
+.textoMVV {
+	font-size: 1.5rem;
+}

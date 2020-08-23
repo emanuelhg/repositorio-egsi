@@ -1,0 +1,28 @@
+$color-primario: #0067c7;
+$color-secu: #018080;
+
+/* Mobile */
+
+@media only screen and (max-width:768px){
+
+/* Sección Nosotros */  
+
+  .card-img-top {
+    filter: grayscale(0%);
+  }
+
+/* Sección Clientes*/
+
+  .nombreCliente {
+    text-align: center;
+  }
+
+  .cargoCliente {
+    text-align: center;
+  }
+
+  .resenaCliente {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,26 @@
+$color-primario: #0067c7;
+$color-secu: #018080;
+
+/* Sección Clientes*/
+
+.fotoCliente {
+  max-width: 200px;
+}
+
+.nombreCliente {
+  font-size: 1.5rem;
+  color: $color-primario;
+}
+
+.cargoCliente {
+  font-size: 1.25rem;
+  color: $color-secu;
+}
+
+.marcoCliente {
+  padding: 0.5rem;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

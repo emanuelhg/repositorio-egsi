@@ -1,0 +1,34 @@
+$color-primario: #0067c7;
+$color-secu: #018080;
+
+/* Sección Index */
+
+.carousel-item {
+  height: 550px;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  transform: translateY(-50%);
+  top: 50%;
+  bottom: 0;
+}
+
+.carouselTitulo {
+  font-size: 4rem;
+}
+
+span.carousel-control-next-icon  {
+  width: 30px;
+  height: 30px;
+}
+
+span.carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+}

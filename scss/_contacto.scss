@@ -1,0 +1,45 @@
+$color-primario: #0067c7;
+$color-secu: #018080;
+
+/* Sección Contacto */
+
+.contenidoNosotros {
+  padding-bottom: 2rem;
+}
+
+.logoContacto {
+  color: $color-primario;
+  margin-bottom:  1rem;
+}
+
+.datosContacto {
+  color: $color-secu;
+  font-weight:  bold;
+}
+
+.mapaOficina {
+  overflow:hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.mapaOficina iframe{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.subContacto{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: $color-primario;
+}
+
+
+form label {
+  color: $color-secu;
+}
