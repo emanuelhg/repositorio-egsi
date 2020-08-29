@@ -206,6 +206,19 @@ span.carousel-control-prev-icon {
 form label {
   color: #018080; }
 
+/* 404 */
+.mensaje404 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  overflow: hidden; }
+
+.imagen404 {
+  max-width: 100%; }
+
+.texto404 {
+  font-size: 1.5rem;
+  color: #018080; }
+
 /* Mobile */
 @media only screen and (max-width: 768px) {
   /* Sección Nosotros */
