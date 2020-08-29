@@ -207,15 +207,15 @@ form label {
   color: #018080; }
 
 /* Error */
-.mensajeError {
+.noEncontrado {
   padding-top: 5rem;
   padding-bottom: 4rem;
   overflow: hidden; }
 
-.imagenError {
+.imagenNoencontrado {
   max-width: 100%; }
 
-.textoError {
+.textoNoencontrado {
   font-size: 1.5rem;
   color: #018080; }
 
