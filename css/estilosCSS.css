@@ -206,16 +206,16 @@ span.carousel-control-prev-icon {
 form label {
   color: #018080; }
 
-/* 404 */
-.mensaje404 {
+/* Error */
+.mensajeError {
   padding-top: 5rem;
   padding-bottom: 4rem;
   overflow: hidden; }
 
-.imagen404 {
+.imagenError {
   max-width: 100%; }
 
-.texto404 {
+.textoError {
   font-size: 1.5rem;
   color: #018080; }
 

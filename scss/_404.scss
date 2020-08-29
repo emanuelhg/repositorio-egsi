@@ -1,19 +1,19 @@
 $color-primario: #0067c7;
 $color-secu: #018080;
 
-/* 404 */
+/* Error */
 
-.mensaje404 {
+.mensajeError {
   padding-top: 5rem;
   padding-bottom: 4rem;
   overflow: hidden;
 }
 
-.imagen404 {
+.imagenError {
   max-width: 100%;
 }
 
-.texto404 {
+.textoError {
 	font-size: 1.5rem;
 	color: $color-secu;
 }
