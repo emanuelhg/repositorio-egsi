@@ -16,7 +16,8 @@ body {
   font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #018080; }
+  color: #018080;
+  --animate-duration: 1.5s; }
 
 /* Nav del sitio */
 .navbar-dark .navbar-brand {
@@ -122,6 +123,9 @@ span.carousel-control-prev-icon {
 .misionVisionValores {
   padding-bottom: 2rem; }
 
+.nosotrosDetalle {
+  overflow: hidden; }
+
 .logoMVV {
   color: #0067c7;
   padding: 1rem; }
@@ -143,7 +147,11 @@ span.carousel-control-prev-icon {
   width: 100%; }
 
 .tituloServicios {
-  color: #0067c7; }
+  color: #0067c7;
+  font-size: 2rem !important; }
+
+.textoServicios {
+  font-size: 1.125rem; }
 
 /* Sección Clientes*/
 .fotoCliente {
