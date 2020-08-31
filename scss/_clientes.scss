@@ -3,8 +3,41 @@ $color-secu: #018080;
 
 /* Sección Clientes*/
 
+#colorEGSI {
+  color: $color-primario;
+}
+
+.clienteContenedor {
+  display: flex;
+  justify-content: center;
+}
+
 .fotoCliente {
   max-width: 200px;
+}
+
+.clienteFrente {
+  position:absolute;
+  z-index:20;
+  transform: perspective(0px) rotateY(0deg);
+  transition: all 500ms;
+}
+
+.clienteDorso {
+  position:absolute;
+  z-index:10;
+  backface-visibility: visible;
+  transform: perspective(0px) rotateY(180deg);
+  transition: all 500ms;
+}
+
+.clienteContenedor:hover .clienteFrente {z-index:10;
+  backface-visibility: visible;
+  transform: perspective(0px) rotateY(180deg);
+}
+.clienteContenedor:hover .clienteDorso {z-index:20;
+  backface-visibility: visible;
+  transform: perspective(0px) rotateY(360deg);
 }
 
 .nombreCliente {
@@ -24,3 +57,11 @@ $color-secu: #018080;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+
+
+
+
+
+
+

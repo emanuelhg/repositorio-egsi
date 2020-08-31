@@ -154,8 +154,38 @@ span.carousel-control-prev-icon {
   font-size: 1.125rem; }
 
 /* Sección Clientes*/
+#colorEGSI {
+  color: #0067c7; }
+
+.clienteContenedor {
+  display: flex;
+  justify-content: center; }
+
 .fotoCliente {
   max-width: 200px; }
+
+.clienteFrente {
+  position: absolute;
+  z-index: 20;
+  transform: perspective(0px) rotateY(0deg);
+  transition: all 500ms; }
+
+.clienteDorso {
+  position: absolute;
+  z-index: 10;
+  backface-visibility: visible;
+  transform: perspective(0px) rotateY(180deg);
+  transition: all 500ms; }
+
+.clienteContenedor:hover .clienteFrente {
+  z-index: 10;
+  backface-visibility: visible;
+  transform: perspective(0px) rotateY(180deg); }
+
+.clienteContenedor:hover .clienteDorso {
+  z-index: 20;
+  backface-visibility: visible;
+  transform: perspective(0px) rotateY(360deg); }
 
 .nombreCliente {
   font-size: 1.5rem;
@@ -225,6 +255,8 @@ form label {
   .card-img-top {
     filter: grayscale(0%); }
   /* Sección Clientes*/
+  .clienteFrente {
+    position: inherit; }
   .nombreCliente {
     text-align: center; }
   .cargoCliente {

@@ -13,6 +13,10 @@ $color-secu: #018080;
 
 /* Sección Clientes*/
 
+  .clienteFrente {
+    position: inherit;
+  }
+
   .nombreCliente {
     text-align: center;
   }
@@ -24,5 +28,5 @@ $color-secu: #018080;
   .resenaCliente {
     text-align: center;
   }
-
+  
 }
