@@ -168,24 +168,28 @@ span.carousel-control-prev-icon {
   position: absolute;
   z-index: 20;
   transform: perspective(0px) rotateY(0deg);
-  transition: all 500ms; }
+  transition: all 500ms;
+  overflow: hidden; }
 
 .clienteDorso {
   position: absolute;
   z-index: 10;
   backface-visibility: visible;
   transform: perspective(0px) rotateY(180deg);
-  transition: all 500ms; }
+  transition: all 500ms;
+  overflow: hidden; }
 
 .clienteContenedor:hover .clienteFrente {
   z-index: 10;
   backface-visibility: visible;
-  transform: perspective(0px) rotateY(180deg); }
+  transform: perspective(0px) rotateY(180deg);
+  overflow: hidden; }
 
 .clienteContenedor:hover .clienteDorso {
   z-index: 20;
   backface-visibility: visible;
-  transform: perspective(0px) rotateY(360deg); }
+  transform: perspective(0px) rotateY(360deg);
+  overflow: hidden; }
 
 .nombreCliente {
   font-size: 1.5rem;

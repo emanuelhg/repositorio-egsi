@@ -21,6 +21,7 @@ $color-secu: #018080;
   z-index:20;
   transform: perspective(0px) rotateY(0deg);
   transition: all 500ms;
+  overflow: hidden;
 }
 
 .clienteDorso {
@@ -29,15 +30,18 @@ $color-secu: #018080;
   backface-visibility: visible;
   transform: perspective(0px) rotateY(180deg);
   transition: all 500ms;
+  overflow: hidden;
 }
 
 .clienteContenedor:hover .clienteFrente {z-index:10;
   backface-visibility: visible;
   transform: perspective(0px) rotateY(180deg);
+  overflow: hidden;
 }
 .clienteContenedor:hover .clienteDorso {z-index:20;
   backface-visibility: visible;
   transform: perspective(0px) rotateY(360deg);
+  overflow: hidden;
 }
 
 .nombreCliente {
