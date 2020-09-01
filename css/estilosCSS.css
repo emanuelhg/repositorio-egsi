@@ -260,7 +260,8 @@ form label {
     filter: grayscale(0%); }
   /* Sección Clientes*/
   .clienteFrente {
-    position: inherit; }
+    position: inherit;
+    overflow: hidden; }
   .nombreCliente {
     text-align: center; }
   .cargoCliente {
