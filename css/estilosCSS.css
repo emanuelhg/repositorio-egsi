@@ -204,7 +204,8 @@ span.carousel-control-prev-icon {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 3rem;
   margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  overflow: hidden; }
 
 /* Sección Contacto */
 .contenidoNosotros {
